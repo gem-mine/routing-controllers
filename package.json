@@ -5,21 +5,12 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "author": {
-    "name": "Umed Khudoiberdiev",
-    "email": "pleerock.me@gmail.com"
+    "name": "tom",
+    "email": "caolvchong@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Michał Lytek",
-      "url": "https://github.com/19majkel94"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pleerock/routing-controllers.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pleerock/routing-controllers/issues"
+    "url": "https://github.com/gem-mine/routing-controllers.git"
   },
   "main": "index.js",
   "tags": [
