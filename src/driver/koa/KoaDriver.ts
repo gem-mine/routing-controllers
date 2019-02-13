@@ -234,9 +234,10 @@ export class KoaDriver extends BaseDriver {
             } else {
                 options.response.redirect(action.redirect);
             }
-        } else if (action.renderedTemplate) { // if template is set then render it // TODO: not working in koa
+        } else if (action.renderedTemplate) { // if template is set then render it
             const renderOptions = result && result instanceof Object ? result : {};
-            return options.response.render(action.renderedTemplate, renderOptions);
+            const render = options.response.render || options.context.render;
+            return render(action.renderedTemplate, renderOptions);
         }
         else if (result === undefined) { // throw NotFoundError on undefined response
             if (action.undefinedResultCode instanceof Function) {
