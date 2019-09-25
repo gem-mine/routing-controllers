@@ -45,7 +45,7 @@
     "chai-as-promised": "^6.0.0",
     "chakram": "^1.4.0",
     "cors": "^2.8.3",
-    "cross-env": "5.0.5",
+    "cross-env": "6.0.0",
     "del": "^2.2.1",
     "express": "^4.15.2",
     "express-session": "^1.15.2",
