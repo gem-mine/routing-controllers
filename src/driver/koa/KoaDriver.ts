@@ -40,7 +40,7 @@ export class KoaDriver extends BaseDriver {
      * Initializes the things driver needs before routes and middleware registration.
      */
     initialize() {
-        const bodyParser = require("koa-bodyparser");
+        const bodyParser = require("@gem-mine/bodyparser");
         this.koa.use(bodyParser());
         if (this.cors) {
             let cors;
