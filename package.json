@@ -1,6 +1,6 @@
 {
   "name": "@gem-mine/routing-controllers",
-  "version": "0.7.14",
+  "version": "0.7.15",
   "description": "Create structured, declarative and beautifully organized class-based controllers with heavy decorators usage for Express / Koa using TypeScript.",
   "license": "MIT",
   "readmeFilename": "README.md",
@@ -23,6 +23,7 @@
     "controllers"
   ],
   "dependencies": {
+    "@gem-mine/bodyparser": "^4.2.2",
     "class-transformer": "^0.1.9",
     "class-validator": "0.8.4",
     "cookie": "^0.3.1",
@@ -31,7 +32,6 @@
     "template-url": "^1.0.0"
   },
   "devDependencies": {
-    "@gem-mine/bodyparser": "^4.2.2",
     "@koa/cors": "^2.2.3",
     "@types/chai": "^3.4.35",
     "@types/chai-as-promised": "0.0.30",
